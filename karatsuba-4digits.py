@@ -18,7 +18,7 @@ p3 = (a + b) * (c + d)
 rest = p3 - p2 - p1
 
 f1 = int(str(p1).ljust(len(str(p1)) + 4, '0')) #first product padded with four zeroes
-f3 = int(str(rest).ljust(len(str(rest)) + 2, '0')) #third product padded with three zeroes
+f3 = int(str(rest).ljust(len(str(rest)) + 2, '0')) #third product padded with two zeroes
 
 print(f1 + p2 + f3)
 
